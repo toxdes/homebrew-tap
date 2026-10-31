@@ -1,14 +1,14 @@
 class Glesha < Formula
   desc "Encrypted archives and indexed cloud backups"
   homepage "https://github.com/toxdes/glesha"
-  version "0.5.1"
+  version "0.5.2"
   on_intel do
-    url "https://packages.toxdes.com/glesha/releases/glesha_0.5.1_macos_amd64.tar.gz"
-    sha256 "58f723d2d2b64ba23a0ea9fd92e27a589a6b86bda038021914f26effb5cb92e5"
+    url "https://packages.toxdes.com/glesha/releases/glesha_0.5.2_macos_amd64.tar.gz"
+    sha256 "ba883c3b712987585f8832c15bbf33ef42f5fd5f37071aee4119a298a06c5aae"
   end
   on_arm do
-    url "https://packages.toxdes.com/glesha/releases/glesha_0.5.1_macos_arm64.tar.gz"
-    sha256 "8eb33120122ae50295e1541343399174023ae012efa2d4a0eefc669c5882cb69"
+    url "https://packages.toxdes.com/glesha/releases/glesha_0.5.2_macos_arm64.tar.gz"
+    sha256 "52bf5e26b39aae30b6af9820b887e85582fc549ef4f9b206adfa5f853eb2d55d"
   end
 
   def install
